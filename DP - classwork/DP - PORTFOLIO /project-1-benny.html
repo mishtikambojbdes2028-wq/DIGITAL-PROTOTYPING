@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benny the Bear – Mishti Kamboj</title>
+    <link rel="stylesheet" href="project-1-benny.css">
+</head>
+<body>
+
+<!-- NAVBAR (same as all pages) -->
+<div class="navbar">
+    <div class="nav-left">
+        <a href="homepage.html" class="logo">MISHTI KAMBOJ</a>
+    </div>
+
+    <div class="nav-toggle" onclick="toggleMenu()">
+        <div class="dot"></div><div class="dot"></div>
+        <div class="dot"></div><div class="dot"></div>
+    </div>
+
+    <div id="navMenu" class="hidden-menu">
+        <a href="work.html">Work</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</div>
+
+<!-- PROJECT HEADER -->
+<section class="project-hero">
+    <div class="hero-img">
+        <img src="proj 1.png" alt="Book Mockup">
+    </div>
+
+    <div class="hero-text">
+        <h1>Kids story<br>book –<br>Benny the bear</h1>
+</section>
+
+<!-- PROJECT TEXT -->
+<section class="project-description">
+    <p>
+        <strong>"Benny The Bear Learned to Care"</strong> is a children's picture book
+        created as part of a college project for the subject Imaging. The story
+        follows Benny, a young bear who learns the importance of helping around
+        the house. Aimed at early readers, the book promotes values like empathy,
+        responsibility, and teamwork through simple language and engaging
+        illustrations. This project focuses on narrative development, character
+        design, and visual storytelling tailored for a young audience.
+    </p>
+</section>
+
+<!-- PROJECT GALLERY -->
+<section class="gallery">
+    <img src="proj 1.1.png" alt="Gallery Image">
+    <img src="proj 1.2.png" alt="Gallery Image">
+    
+</section>
+
+<!-- MORE TO EXPLORE -->
+<section class="more-explore">
+    <div class="explore-top">
+        <h2>more to explore</h2>
+        <button class="show-btn" onclick="window.location.href='work.html'">Show More</button>
+    </div>
+
+    <div class="explore-grid">
+        <div class="explore-item">
+            <a href="project-1-benny.html">
+                <img src="proj 1.png" alt="Project 1">
+            </a>
+        </div>
+        <div class="explore-item">
+            <a href="project-2-404.html">
+                <img src="proj 2.png" alt="Project 2">
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+    <div class="cta-inner">
+        <div class="cta-text">
+            Curious about what we can create together?<br>
+            Let’s bring something extraordinary to life!
+        </div>
+
+        <button class="cta-button" onclick="window.location.href='work.html'">Load More</button>
+
+        <p class="status">● Available for work</p>
+
+        <div class="cta-links">
+            <a href="www.linkedin.com/in/mishti-kamboj-2140b1318" target="_blank">LinkedIn</a>
+            <a href="https://www.behance.net/mishtikamboj15" target="_blank">Behance</a>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 Mishti Kamboj</p>
+</footer>
+
+<script>
+function toggleMenu() {
+    var menu = document.getElementById("navMenu");
+    menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,242 @@
+/* ---------- GENERAL ---------- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #000;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.nav-left {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Toggle button */
+.nav-toggle {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.nav-toggle .dot {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+}
+
+.logo {
+    text-decoration: none;
+    color: inherit;   /* keeps same text color */
+    font-weight: inherit;
+}
+
+/* Hidden menu */
+.hidden-menu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 40px;
+    background: white;
+    padding: 12px 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    flex-direction: column;
+}
+
+.hidden-menu a {
+    text-decoration: none;
+    color: black;
+    margin: 8px 0;
+}
+
+/* ---------- WORK SECTION ---------- */
+.work-section {
+    padding: 40px 40px 80px;
+}
+
+.work-section h1 {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+/* Grid */
+.work-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+}
+
+.work-item {
+    width: 100%;
+    height: 300px;
+    background: #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.work-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.placeholder {
+    background: #d3d3d3;
+}
+
+.page-title {
+    font-size: 50px;
+    padding: 40px 40px 10px;
+}
+
+/* RESUME LAYOUT */
+.resume-container {
+    padding: 0 40px 80px;
+    max-width: 900px;
+}
+
+.section-title {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.resume-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.resume-left {
+    font-weight: bold;
+    width: 70%;
+}
+
+.date {
+    width: 30%;
+    text-align: right;
+}
+
+.resume-list {
+    margin: 10px 0 25px 20px;
+    line-height: 1.5;
+}
+
+/* ICONS */
+.icon-row {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.icon-box {
+    padding: 15px 18px;
+    background: #111;
+    color: white;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+/* INTEREST TAGS */
+.tag-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.tag {
+    padding: 6px 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* ---------- CTA SECTION ---------- */
+.cta-section {
+    background: #000;
+    color: #fff;
+    padding: 80px 40px;
+}
+
+.cta-inner {
+    max-width: 1000px;
+    margin: auto;
+    text-align: left;
+}
+
+.cta-text {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.cta-button {
+    margin-top: 20px;
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.status {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.cta-links {
+    margin-top: 20px;
+}
+
+.cta-links a {
+    margin-right: 20px;
+    color: #ddd;
+    text-decoration: none;
+}
+
+.cta-links a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media (max-width: 700px) {
+    .work-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .work-item {
+        height: 250px;
+    }
+
+    .work-section {
+        padding: 30px 20px;
+    }
+
+    .cta-section {
+        padding: 60px 20px;
+    }
+}

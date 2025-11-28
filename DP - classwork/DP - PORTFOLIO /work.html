@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work – Mishti Kamboj</title>
+    <link rel="stylesheet" href="work.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="nav-left">
+        <a href="homepage.html" class="logo">MISHTI KAMBOJ</a>
+    </div>
+
+    <!-- Toggle Button -->
+    <div class="nav-toggle" onclick="toggleMenu()">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+
+    <!-- Hidden Menu -->
+    <div id="navMenu" class="hidden-menu">
+        <a href="work.html">Work</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</div>
+
+<!-- WORK SECTION -->
+<section class="work-section">
+    <h1>WORK</h1>
+
+    <div class="work-grid">
+
+        <a href="project-1-benny.html" class="work-item">
+            <img src="proj 1.png" alt="Project 1">
+        </a>
+
+        <a href="project-2-404.html" class="work-item">
+            <img src="proj 2.png" alt="Project 2">
+        </a>
+
+        <div class="work-item placeholder"></div>
+        <div class="work-item placeholder"></div>
+        <div class="work-item placeholder"></div>
+        <div class="work-item placeholder"></div>
+
+    </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="cta-section">
+    <div class="cta-inner">
+        <div class="cta-text">
+            Curious about what we can create together?<br>
+            Let’s bring something extraordinary to life!
+        </div>
+
+        <button class="cta-button" onclick="window.location.href='work.html'">
+            Load More
+        </button>
+
+        <p class="status">● Available for work</p>
+
+        <div class="cta-links">
+            <a href="www.linkedin.com/in/mishti-kamboj-2140b1318" target="_blank">LinkedIn</a>
+            <a href="https://www.behance.net/mishtikamboj15" target="_blank">Behance</a>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 Mishti Kamboj</p>
+</footer>
+
+<script>
+function toggleMenu() {
+    var menu = document.getElementById("navMenu");
+    menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
+}
+</script>
+
+</body>
+</html>
+

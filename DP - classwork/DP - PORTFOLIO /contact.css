@@ -1,0 +1,169 @@
+/* ---------- GENERAL ---------- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #000;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.nav-left {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Toggle button */
+.nav-toggle {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.nav-toggle .dot {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+}
+
+.logo {
+    text-decoration: none;
+    color: inherit;   /* keeps same text color */
+    font-weight: inherit;
+}
+
+/* Hidden menu */
+.hidden-menu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 40px;
+    background: white;
+    padding: 12px 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    flex-direction: column;
+}
+
+.hidden-menu a {
+    text-decoration: none;
+    color: black;
+    margin: 8px 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #000;
+}
+
+.contact-header {
+    padding: 40px;
+}
+
+.contact-header h1 {
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 0.9;
+    margin-bottom: 40px;
+}
+
+.contact-line {
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: right;
+}
+
+.contact-line a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* ---------- CTA SECTION ---------- */
+.cta-section {
+    background: #000;
+    color: #fff;
+    padding: 80px 40px;
+}
+
+.cta-inner {
+    max-width: 1000px;
+    margin: auto;
+    text-align: left;
+}
+
+.cta-text {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.cta-button {
+    margin-top: 20px;
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.status {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.cta-links {
+    margin-top: 20px;
+}
+
+.cta-links a {
+    margin-right: 20px;
+    color: #ddd;
+    text-decoration: none;
+}
+
+.cta-links a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media (max-width: 700px) {
+    .work-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .work-item {
+        height: 250px;
+    }
+
+    .work-section {
+        padding: 30px 20px;
+    }
+
+    .cta-section {
+        padding: 60px 20px;
+    }
+}

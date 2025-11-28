@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 404 : not out – Mishti Kamboj</title>
+    <link rel="stylesheet" href="project-2-404.css">
+</head>
+<body>
+
+<!-- NAVBAR (same as all pages) -->
+<div class="navbar">
+    <div class="nav-left">
+        <a href="homepage.html" class="logo">MISHTI KAMBOJ</a>
+    </div>
+
+    <div class="nav-toggle" onclick="toggleMenu()">
+        <div class="dot"></div><div class="dot"></div>
+        <div class="dot"></div><div class="dot"></div>
+    </div>
+
+    <div id="navMenu" class="hidden-menu">
+        <a href="work.html">Work</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</div>
+
+
+<!-- PROJECT CONTENT -->
+<div class="project-container">
+
+    <!-- HERO ROW -->
+    <div class="hero-row">
+        <img src="proj 2.png" class="hero-left" alt="Hero Image">
+
+        <div class="hero-right">
+            <h2>Play posters –<br>404 not found</h2>
+        </div>
+    </div>
+
+    <!-- TEXT + IMAGES SECTION -->
+    <div class="section-grid">
+
+        <div class="left-text">
+            “404: Not Found” is a promotional poster series created as a design project for a fictional play. 
+            The play follows five strangers — known only by tech-inspired aliases like “Bug” and “Cache” — 
+            who arrive at a mandatory “digital detox” retreat.
+        </div>
+
+        <img src="proj 2.1.png" class="right-img" alt="Poster 1">
+
+        <img src="proj 2.2.png" class="left-img" alt="Poster 2">
+
+        <div class="right-text">
+            The story quickly unravels into a self-help experiment turning into a psychological thriller
+            as the participants realize they are all connected by a controversial tech company — and that
+            one of them is an imposter.
+        </div>
+
+        <div class="full-text">
+            Aimed at a modern theatre audience interested in psychological thrillers, the series visually 
+            promotes themes of surveillance, hidden secrets, fractured identity, and tech-dystopia through 
+            dramatic visual design.
+        </div>
+        <div class="left-text">
+            The project focuses on capturing escalating psychological tension, developing visual metaphors
+            for digital isolation, and achieving thematic representation tailored for a powerful
+            theatrical marketing campaign.
+        </div>
+
+        <img src="proj2.3.png" class="right-img" alt="Poster 3">
+
+
+    </div>
+
+</div>
+
+<!-- MORE TO EXPLORE -->
+<section class="more-section">
+    <div class="more-top">
+        <h3>more to explore</h3>
+        <button class="show-more" onclick="window.location.href='work.html'">Show More</button>
+    </div>
+
+    <div class="more-grid">
+        <a href="project-1-benny.html"><img src="proj 1.png" alt="Project 1"></a>
+        <a href="project-2-404.html"><img src="proj 2.png" alt="Project 2"></a>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+    <div class="cta-inner">
+        <div class="cta-text">
+            Curious about what we can create together?<br>
+            Let’s bring something extraordinary to life!
+        </div>
+
+        <button class="cta-button" onclick="window.location.href='work.html'">Load More</button>
+
+        <p class="status">● Available for work</p>
+
+        <div class="cta-links">
+            <a href="www.linkedin.com/in/mishti-kamboj-2140b1318" target="_blank">LinkedIn</a>
+            <a href="https://www.behance.net/mishtikamboj15" target="_blank">Behance</a>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 Mishti Kamboj</p>
+</footer>
+
+<script>
+function toggleMenu() {
+    var menu = document.getElementById("navMenu");
+    menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mishti Kamboj Portfolio</title>
+    <link rel="stylesheet" href="homepage-style.css">
+</head>
+
+<body>
+
+<!-- TOP NAV BAR -->
+<div class="navbar">
+  <div class="nav-left">MISHTI KAMBOJ</div>
+
+  <!-- Toggle Button -->
+  <div class="nav-toggle" onclick="toggleMenu()">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+
+  <!-- Hidden Menu -->
+  <div id="navMenu" class="hidden-menu">
+    <a href="work.html">Work</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</div>
+
+
+<!-- HERO SECTION -->
+<section class="hero">
+
+    <div class="hero-text">
+        <h1>MISHTI<br>KAMBOJ</h1>
+
+        <p >
+        Hi, I'm Mishti, a Communication Design student exploring visual 
+        storytelling, branding, and social media. Let’s create something meaningful!
+        </p>
+    </div>
+
+    <img src="1744175262865 (1).jpeg" class="profile-img" alt="Profile">
+</section>
+
+<!-- PROJECT SECTION -->
+<section class="projects">
+    <h3>My projects</h3>
+
+    <div class="project-grid">
+        <a href="project-1-benny.html">
+            <img src="proj 1.png" class="project-img" alt="Project 1">
+        </a>
+
+        <a href="project-2-404.html">
+            <img src="proj 2.png" class="project-img" alt="Project 2">
+        </a>
+    </div>
+
+    <a href="work.html" class="show-btn">Show More</a>
+</section>
+
+<!-- CTA SECTION -->
+<section class="cta-section">
+    <div class="cta-inner">
+        <div class="cta-text">
+            Curious about what we can create together?<br>
+            Let’s bring something extraordinary to life!
+        </div>
+
+        <button class="cta-button" onclick="window.location.href='work.html'">
+            Load More
+        </button>
+
+        <p class="status">● Available for work</p>
+
+        <div class="cta-links">
+            <a href="www.linkedin.com/in/mishti-kamboj-2140b1318" target="_blank">LinkedIn</a>
+            <a href="https://www.behance.net/mishtikamboj15" target="_blank">Behance</a>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 Mishti Kamboj</p>
+</footer>
+
+<script>
+function toggleMenu() {
+    var menu = document.getElementById("navMenu");
+    menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
+}
+</script>
+
+</body>
+</html>
+

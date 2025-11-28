@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact – Mishti Kamboj</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+<!-- NAVBAR (same as all pages) -->
+<div class="navbar">
+    <div class="nav-left">
+        <a href="homepage.html" class="logo">MISHTI KAMBOJ</a>
+    </div>
+
+    <div class="nav-toggle" onclick="toggleMenu()">
+        <div class="dot"></div><div class="dot"></div>
+        <div class="dot"></div><div class="dot"></div>
+    </div>
+
+    <div id="navMenu" class="hidden-menu">
+        <a href="work.html">Work</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</div>
+
+<!-- CONTACT SECTION -->
+<section class="contact-header">
+    <h1>SHOOT A<br>REQUEST</h1>
+
+    <p class="contact-line">
+        Email: <a href="mailto:mishtikamboj15@gmail.com">mishtikamboj15@gmail.com</a>
+    </p>
+    <p class="contact-line">LinkedIn: Mishti Kamboj</p>
+    <p class="contact-line">Behance: Mishti Kamboj</p>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+    <div class="cta-inner">
+        <div class="cta-text">
+            Curious about what we can create together?<br>
+            Let’s bring something extraordinary to life!
+        </div>
+
+        <button class="cta-button" onclick="window.location.href='work.html'">Load More</button>
+
+        <p class="status">● Available for work</p>
+
+        <div class="cta-links">
+            <a href="www.linkedin.com/in/mishti-kamboj-2140b1318" target="_blank">LinkedIn</a>
+            <a href="https://www.behance.net/mishtikamboj15" target="_blank">Behance</a>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 Mishti Kamboj</p>
+</footer>
+
+<script>
+function toggleMenu() {
+    var menu = document.getElementById("navMenu");
+    menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
+}
+</script>
+
+</body>
+</html>

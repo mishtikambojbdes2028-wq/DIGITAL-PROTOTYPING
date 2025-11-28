@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Resume – Mishti Kamboj</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+
+<!-- NAVBAR (same as all pages) -->
+<div class="navbar">
+    <div class="nav-left">
+        <a href="homepage.html" class="logo">MISHTI KAMBOJ</a>
+    </div>
+
+    <div class="nav-toggle" onclick="toggleMenu()">
+        <div class="dot"></div><div class="dot"></div>
+        <div class="dot"></div><div class="dot"></div>
+    </div>
+
+    <div id="navMenu" class="hidden-menu">
+        <a href="work.html">Work</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</div>
+
+
+<h1 class="page-title">Resume</h1>
+
+<!-- MAIN RESUME CONTENT -->
+<div class="resume-container">
+
+    <!-- WORK EXPERIENCE -->
+    <h2 class="section-title">Work Experience</h2>
+
+    <div class="resume-row">
+        <div class="resume-left">Tuscany<br>Social Media Designer & Manager</div>
+        <div class="resume-right date">2022–present</div>
+    </div>
+    <ul class="resume-list">
+        <li>Led the design and management of Tuscany’s social media presence across Instagram, Facebook, and LinkedIn.</li>
+        <li>Developed creative captions and posts aligned with the brand's tone and messaging.</li>
+        <li>Monitored engagement metrics and optimized strategies.</li>
+        <li>Collaborated with marketing & design teams for campaigns and audience growth.</li>
+    </ul>
+
+    <div class="resume-row">
+        <div class="resume-left">Raj VFX<br>Intern — Animation & VFX</div>
+        <div class="resume-right date">May 2025 – June 2025</div>
+    </div>
+    <ul class="resume-list">
+        <li>Assisted in live animation projects with senior designers.</li>
+        <li>Supported motion graphics design for short sequences.</li>
+        <li>Hands-on experience with After Effects, Blender, and Illustrator.</li>
+        <li>Contributed to reference material & research for VFX development.</li>
+    </ul>
+
+    <div class="resume-row">
+        <div class="resume-left">BHISMUN '24<br>Social Media Intern</div>
+        <div class="resume-right date">Jun 2024 – Sept 2024</div>
+    </div>
+    <ul class="resume-list">
+        <li>Curated and managed content for the MUN Instagram page.</li>
+        <li>Developed a cohesive branding strategy that boosted followers by 1500+.</li>
+        <li>Designed event-specific graphics and coordinated with the organizing team.</li>
+        <li>Increased engagement through reels, countdowns, and behind-the-scenes content.</li>
+    </ul>
+
+    <!-- EDUCATION -->
+    <h2 class="section-title">Education</h2>
+
+    <div class="resume-row">
+        <div class="resume-left">Atlas SkillTech University |<br>B.Des Communication Design</div>
+        <div class="resume-right date">2024–2028</div>
+    </div>
+
+    <div class="resume-row">
+        <div class="resume-left">Billabong High International School | Commerce (CBSE)</div>
+        <div class="resume-right date">2022–2024</div>
+    </div>
+
+    <div class="resume-row">
+        <div class="resume-left">Ryan International School |<br>10th (ICSE)</div>
+        <div class="resume-right date">2010–2022</div>
+    </div>
+
+    <!-- TECHNICAL SKILLS -->
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="icon-row">
+        <div class="icon-box">Pr</div>
+        <div class="icon-box">Ai</div>
+        <div class="icon-box">Id</div>
+        <div class="icon-box">🞄🞄</div>
+    </div>
+
+    <!-- INTERESTS -->
+    <h2 class="section-title">Interests</h2>
+    <div class="tag-row">
+        <span class="tag">Design</span>
+        <span class="tag">Design Thinking</span>
+        <span class="tag">Music</span>
+        <span class="tag">Art & Craft</span>
+    </div>
+
+</div>
+
+
+<!-- CTA -->
+<section class="cta-section">
+    <div class="cta-inner">
+        <div class="cta-text">
+            Curious about what we can create together?<br>
+            Let’s bring something extraordinary to life!
+        </div>
+
+        <button class="cta-button" onclick="window.location.href='work.html'">Load More</button>
+
+        <p class="status">● Available for work</p>
+
+        <div class="cta-links">
+            <a href="www.linkedin.com/in/mishti-kamboj-2140b1318" target="_blank">LinkedIn</a>
+            <a href="https://www.behance.net/mishtikamboj15" target="_blank">Behance</a>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 Mishti Kamboj</p>
+</footer>
+
+<script>
+function toggleMenu() {
+    var menu = document.getElementById("navMenu");
+    menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
+}
+</script>
+
+</body>
+</html>
