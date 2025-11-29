@@ -1,0 +1,39 @@
+.navBar
+                {
+                    height: 100px;
+                    background-color: rgb(7, 58, 94);
+
+                }
+
+                .infoHeader
+                {
+                    height: 200px;
+                    background-color: lightcyan;
+                }
+                
+                .introText
+                {
+                    height: 200px;
+                    background-color: rgb(163, 167, 229);
+                }
+                .projectBox {
+                 height:60%;
+                 width: 30%;
+                 background-color: coral;
+                 align-items: center;
+                 display: inline-block;
+                 padding: left
+                ;
+
+                }
+                .projectGrid
+                {
+                    height: 400px;
+                    background-color: lightblue;
+                }
+                
+                .aboutMe
+                {
+                    height: 400px;
+                    background-color: lightgreen;
+                }

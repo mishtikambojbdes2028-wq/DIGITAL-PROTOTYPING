@@ -1,0 +1,29 @@
+.section_one{
+    border: 2px solid black; 
+
+    width: 100%;
+    height: 100vh
+
+   
+}
+
+.image_container{
+  
+    width: 50%;
+    height: 100%;
+
+    border: 2px solid yellowgreen;
+}
+
+.image{
+    width: 100%;
+    height: 1005;
+}
+
+.content_container{
+  
+    width: 50%;
+    height: 100%;
+
+    border: 2px solid hotpink;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Layout 1</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: palevioletred;
+    }
+
+    /* Top Bar */
+    .topBar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+      padding: 20px; 
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .navigation {
+      font-size: 18px;
+    }
+
+    /* Banner */
+    .headerBanner {
+      background-color: gray;
+      padding: 40px;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+    }
+
+    /* Intro */
+    .introText {
+      background-color: lightpink;
+      margin: 20px auto;
+      padding: 10px;
+      text-align: center;
+      width: 600px;
+      font-size: 18px;
+      border: 3px solid black;
+    }
+
+    /* Projects */
+    .projectContainer {
+      display: flex;
+      justify-content: center;
+      margin: 30px 0;
+    }
+    .projectBox {
+      width: 250px;
+      height: 300px;
+      background-color: beige;
+      border: 2px solid black;
+      margin: 0 15px;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: darkgray;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+     
+  </style>
+</head>
+<body>
+
+  <div class="topBar">
+    <div class="logo">My Logo</div>
+    <div class="navigation">Home | About | Projects | Contact</div>
+  </div>
+
+  <div class="headerBanner">Welcome to My Website</div>
+
+  <div class="introText">
+    This is the introduction text area.
+  </div>
+
+  <div class="projectContainer">
+    <div class="projectBox"></div>
+    <div class="projectBox"></div>
+    <div class="projectBox"></div>
+  </div>
+
+  <div class="footer">©️ 2025 My Website | All Rights Reserved</div>
+
+</body>
+</html>

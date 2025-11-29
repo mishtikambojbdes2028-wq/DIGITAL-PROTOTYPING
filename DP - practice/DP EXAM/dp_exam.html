@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mishti Kamboj</title>
+
+    <style>
+    body {
+       background-color: #fad9e8;
+        }
+    
+.projectBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #bd918c;
+  padding: 20px;
+}
+.projectBox.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+} 
+   .projectGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  align-items: stretch;           
+}
+  .projectBox.images {
+  flex-direction: row;  
+  gap: 15px;                
+  padding: 10px;
+}
+
+  .projectBox img.small-img {
+  width: 70%;
+  height: auto;
+  object-fit: contain;
+}
+.projectBox.images img {
+  width: 50%;         
+}
+
+  .projectBox h1 { 
+    color: #ffffff;
+    padding-left: 10px;
+  }
+
+  .projectBox.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   
+  align-items: center;      
+  text-align: center;        
+  padding: 30px;
+}
+
+
+.projectBox.text h1,
+.projectBox.text h3,
+.projectBox.text p {
+  color: white;
+  margin: 5px 0;
+  text-align: center;
+}
+ 
+.about-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 16px;
+  align-self: center;
+}
+
+.about-button:hover {
+  background-color: white;
+  color: #bd918c;
+}
+   .topBar {
+        position: absolute; 
+        top: 0;
+        left: 0;
+        width: 100%;        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        margin-top: 20px;
+        z-index: 10;
+        box-sizing: border-box; 
+}
+     
+
+
+     .logo {
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+                   }
+
+    .profile-img {
+  width: 90%;
+  height: auto;   
+  object-fit: cover;
+  display: block;
+}
+    .navigation {
+    text-align: center;
+    font-size: 20px;
+                 }
+    .navigation a { 
+      color: #ffffff;
+      padding: 10px;
+      text-decoration: none;
+    }
+    .navigation a:hover {
+  background-color: white;
+  color: #bd918c;
+  border-radius: 4px; 
+ 
+}
+.icon {     
+  max-width: 70px; 
+  min-width: 5px;  
+  height: auto;
+ align-self: center; }     
+    </style>
+</head>
+<body>
+
+     <div class="topBar">
+    <div class="logo"> Mishti Kamboj </div>
+     <div class="navigation"> 
+        <a href="Home.html"> Home </a>
+        <a href = "about.html"> About </a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html"> Contact</a> </div>
+    </div> 
+     
+    <div> <img src="" alt="" srcset=""></div>
+
+
+     <div class="projectGrid">
+
+      <div class="projectBox"> 
+        <img src="me.jpg" alt="" srcset="" class="profile-img"> </div>
+               <div class="projectBox center"> 
+  <h1 style="font-size: 40px; padding-bottom: 40px;">
+    Hi! I am Mishti, a second year communication design student.
+  </h1>
+                     
+                      <a href="http://127.0.0.1:3000/DP%20EXAM/dp_exam.html" class="about-button">Home</a>
+                </div>
+    </div>
+
+<div class="projectGrid">
+   <div class="projectBox text">
+     <img src="profile-user.png" alt=" " class="icon">
+      <h1>About Me</h1>
+      <h3>A student at ISDI Parsons Mumbai</h3>
+      <p>Part of Atlas Skilltech University, where I am embarking 
+         on an exciting journey in the world of design and innovation.</p>
+      <p>Academic Pursuits:-  
+At ISDI Parsons, I am immersing myself in a diverse curriculum that blends theoretical learning with practical experience...</p>
+      <a href="about.html" class="about-button">Learn More</a>
+   </div>
+
+   <div class="projectBox">
+      <img src="work.jpg" alt="" class="small-img">
+   </div>
+</div>
+    
+<div class="projectGrid">
+   <div class="projectBox images">
+      <img src="Screenshot 2025-09-03 at 9.27.23 AM.png" alt="Project Image 1">
+      <img src="Screenshot 2025-09-03 at 9.27.30 AM.png" alt="Project Image 2">
+   </div>
+
+   <div class="projectBox text">
+        <img src="laptop.png" alt=" " class="icon">
+      <h1>My Projects</h1>
+      <p>A showcase of my creative journey through communication design, 
+         where I explore innovation and storytelling.</p>
+      <a href="projects.html" class="about-button">View Projects</a>
+   </div>
+</div>
+
+<footer style="background-color: #bd918c; color: white; padding: 30px 20px; text-align: center; margin-top: 40px;">
+  <h2>Contact Me</h2>
+  <p>If you'd like to work together or just say hi, feel free to reach out!</p>
+  
+  <p>Email: <a href="mailto:mishti@example.com" style="color: white; text-decoration: underline;">mishti@example.com</a></p>
+  
+
+  <div style="margin-top: 15px;">
+    <a href="Linkedin.com/in/mishti-kamboj-2140b1318/" target="_blank" style="margin: 0 10px; color: white;">LinkedIn</a>
+    <a href="https://www.behance.net/mishtikamboj15" target="_blank" style="margin: 0 10px; color: white;">Behance</a>
+  </div>
+
+</footer>
+
+
+</body>
+</html>

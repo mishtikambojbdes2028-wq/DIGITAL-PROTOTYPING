@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout 1</title>
+
+       <style>
+      .topBar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(110, 36, 36);
+      padding: 20px; 
+       }
+        .logo {
+      font-size: 24px;
+      font-weight: bold;
+        }
+      .navigation {
+      background-color: aqua;
+      text-align: center;
+      font-size: 20px;
+    }
+
+    .navigation a { 
+      color: #000000;
+      padding: 10px;
+      text-decoration: none;
+    }
+      .headerBanner {
+
+      background-color: rgb(157, 53, 53);
+      padding: 40px;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      }
+     
+      .sidebar {
+      margin-top: 200px; /* push below topnav */
+      height: 100%;
+      width: 200px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #222;
+      padding-top: 20px;
+    }
+
+    .sidebar a {
+      display: block;
+      color: #ddd;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      background-color: #575757;
+      color: white;
+    }
+
+    .content {
+      margin-top: 49x;   /* space for topnav */
+      margin-left: 201px; /* space for sidebar */
+      padding: 20px;
+    }
+
+    
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    footer a {
+      color: lightblue;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+       </style>
+</head>
+<body>
+    <div class="topBar">
+    <div class="logo"> Logo </div>
+    </div> 
+    <div class="navigation"> 
+        <a href="Home.html"> Home </a>
+        <a href = "about.html"> about </a>
+        <a href="projects.html">project</a>
+        <a href="contact.html"> contact</a>
+    </div>
+
+    <div class="headerBanner"> header/banner </div>
+
+    <div class="sidebar"> 
+       <a href="Home.html"> Home </a>
+        <a href = "about.html"> about </a>
+        <a href="projects.html">project</a>
+        <a href="contact.html"> contact</a>
+     </div>
+   
+     <div class="content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, voluptas. Placeat fugit dignissimos libero, illum fuga vero dolor! Accusamus voluptate sequi alias voluptatum aperiam, atque consectetur maiores delectus aliquid ducimus! </div>
+
+      <footer>
+     <p>&copy; 2025 My Website | All Rights Reserved</p>
+     <p>
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="privacy.html">Privacy Policy</a>
+    </p>
+  </footer>
+   
+</body>
+</html>
